@@ -3,13 +3,13 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 .utmp/
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
 *.log
 
 # MemoryCaptures can get excessive in size.
@@ -73,3 +73,15 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# 屏蔽超大格式文件 (贴图与光照烘焙数据)
+*.tif
+*.tif.meta
+*LightingData.asset
+*LightingData.asset.meta
+
+# 屏蔽截图里这俩庞大的第三方资源文件夹（强烈推荐直接屏蔽文件夹）
+/Assets/Terrains/
+/Assets/Terrains.meta
+/Assets/Versatile Studio Assets/
+/Assets/Versatile Studio Assets.meta
