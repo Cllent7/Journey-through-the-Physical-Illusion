@@ -44,52 +44,41 @@
 ### 1. 阿基米德原理浮力验证（核心）
 * **玩法与验证：** 玩家自由操控不同密度、不同体积的小球投入水槽。
 * **技术呈现：** 玩家可直观观察到物体在水中的真实动态沉浮，深度理解密度、体积与浮力之间的物理关系。
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/27529f12-67cd-48ce-9a53-04ecb7f3e9ec" alt="gif-1" />
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/c4f5a7f3-0d78-4a96-87f9-6bb3b8421f58" alt="实机画面" />
-    </td>
-  </tr>
-</table>
+
 
 ### 2. 热学模拟（热气球）实验
 * **玩法与验证：** 玩家亲自操控燃烧器，观察热空气膨胀带来的升力变化，体验热气球从地面逐渐升空的过程。
 * **技术呈现：** 模拟热力学原理，动态计算气囊内空气受热膨胀后的密度变化，产生大于重力的向上合力，实现真实的热气球升降控制。
-<img src="https://github.com/user-attachments/assets/4be2a66a-29d5-4407-823b-092b154fa187" alt="实机画面" width="500" />
+
 
 
 ### 3. 力学运动（自由落体）实验
 * **玩法与验证：** 在抽真空的理想环境舱内，同时释放不同质量的小球。
 * **技术呈现：** 精准还原无空气阻力环境下的重力加速度 ($g$) 表现，直观打破“重物落得快”的视觉错觉，验证经典力学定律。
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/6887b090-0679-4b63-959b-191af31852a5" alt="自由落体实验" />
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/5fcc80e9-2936-44df-b3ab-33d3314fcf0d" alt="自由落体" />
-    </td>
-  </tr>
-</table>
+
 
 ### 4. 小球摩擦力实验
 * **玩法与验证：** 玩家可切换不同的斜面与水平面材质（如玻璃、木板、毛巾），操作小球滚下并测量其最终滑行距离。
 * **技术呈现：** 通过调整物理引擎中不同材质表面的动态与静态摩擦系数（Friction），精准模拟阻力对物体运动状态（减速至停止）的量化影响。
-
----
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/76d021ab-a582-4c34-bd35-2580303cc72c" alt="摩擦力实验 1" />
+      <img src="https://github.com/user-attachments/assets/9b78b012-9f1c-4dc6-a8d2-e8baa8c1ad99" alt="gif演示" />
     </td>
     <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/63715f6c-e1f8-48bf-b7aa-298de6e42a28" alt="小球摩擦力实验 2" />
+      <img src="https://github.com/user-attachments/assets/6f243d2e-e91c-4edd-9cef-94cf079a398b" alt="实机画面1" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/1d13e7ca-974d-48e4-abfe-9d27fc46e2d1" alt="自由落体实验" />
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/242963f2-7ecb-4d00-af86-d201fa98ee9c" alt="实机画面2" />
     </td>
   </tr>
 </table>
+
 
 ## 🛠 技术栈
 
